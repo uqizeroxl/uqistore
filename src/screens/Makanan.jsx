@@ -1,14 +1,16 @@
 import { ScrollView, StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Meat from '../components/Meat'
+import { Ionicons } from '@expo/vector-icons'
 
 export default function Makanan() {
   return (
+    <View>
     <ScrollView contentContainerStyle={styles.container}>
       <Image source={require('../../assets/makanan.webp')} style={styles.banner}/>
       <Text style={styles.textbenner}>aneka ragam makanan has indonesia</Text>
       <View style={styles.card}>
-        <Meat gambar={require('../../assets/nasigoreng.jpeg')} nama={'aci'} desc={'-'} harga={3}/>
+        <Meat gambar={require('../../assets/nasigoreng.jpeg')} nama={'Nasi goreng'} desc={'TELUR, AYAM, CUMI'} harga={3}/>
         <Meat gambar={require('../../assets/rawon.webp')} nama={'Rawon'} desc={'-'}  harga={13}/>
         <Meat gambar={require('../../assets/nasitumpeng.jpeg')} nama={'nasi tumpeng'} desc={'-'} harga={3}/>
        
@@ -24,6 +26,7 @@ export default function Makanan() {
         <Meat gambar={require('../../assets/rujak.png')} nama={'Rujak'} desc={'BIASA, CINGUR, LORJHUK'} harga={8}/>
         <Meat gambar={require('../../assets/rames.jpeg')} nama={'Nasi Rames'} desc={'-'} harga={7}/>      
     </ScrollView>
+    </View>
   )
 }
 

@@ -22,7 +22,7 @@ export default function Apalah ({gambar,nama,harga,potongan}){
 
 const styles = StyleSheet.create({
     box:{
-        backgroundColor:'red',
+        backgroundColor:'#fff',
         alignItems:'center',
         height:310,
         padding:0,
