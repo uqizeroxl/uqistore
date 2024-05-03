@@ -1,7 +1,7 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function Diskontol ({nama}) {
+export default function Diskonaja ({nama}) {
 
 
   return (

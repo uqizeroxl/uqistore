@@ -1,9 +1,8 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Diskon from '../components/Diskon'
-import Diskontol from '../components/Diskontol'
 import Apalah from '../components/Apalah'
-import lagii from '../components/lagii'
+import Diskonaja from '../components/Diskonaja'
 import Lagi from '../components/Lagi'
 
 const Promo = () => {
@@ -13,8 +12,6 @@ const Promo = () => {
     <View style={styles.header}>
       <Diskon nomer={340} voucher={'Voucher & Paket'}/>
       <Diskon nomer={'0'} voucher={'Langganan'}/>
-      <Diskontol nama={'Masukan Kode Voucher'}/>
-      <Diskontol nama={'Ajak Teman Kamu Dan Dapatkan Voucher'}/>
       <Text style={styles.prompt}>Promo menarik buat kamu</Text>
       <ScrollView ContentContainerStyle={styles.menu} horizontal={true}>
       <Apalah gambar={require('../../assets/roll.jpg')} nama={'telung'} potongan={10} harga={7}/>
