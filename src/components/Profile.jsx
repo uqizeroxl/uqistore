@@ -10,7 +10,7 @@ const Profile = () => {
         <Text style={styles.text}>Profil saya</Text>
       </TouchableOpacity>
       <View style={styles.lengkap}>
-    <Ionicons name='person-circle-outline' color={'black'} size={'50'} style={styles.prof}></Ionicons>
+    <Ionicons name='person-circle-outline' color={'#4CCD99'} size={'50'} style={styles.prof}></Ionicons>
     <View>
     <Text style={styles.nama}>Kholqi</Text>
     <Text style={styles.email}>mohkholqimaulana@gmail.com</Text>
